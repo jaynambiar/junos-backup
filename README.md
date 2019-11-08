@@ -1,7 +1,6 @@
 # junos-backup
-Backup from Junos devices using ssh
+Backup configurations from Junos devices using ssh
 
-Run juniper-backup.sh via crontab once initial test runs are successful
 
 
 Please change the following  in juniper-backup.sh to suit your environment
@@ -36,3 +35,7 @@ In case your script is not exiting cleanly after a run, modify juniper-backup.ex
 
 On line number 58 change "expect *$" to reflect your shell prompt, for e.g my shell prompt begins with jay@ 
 In this case the line would be changed to "expect jay@*"
+
+
+
+Run juniper-backup.sh via crontab once initial test runs are successful
